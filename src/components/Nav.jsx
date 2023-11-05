@@ -1,11 +1,15 @@
 import React from 'react';
-import gif from '../assets/gif.gif';
+import './styles/nav.css'
 
 const Nav = () => {
     return (
-        <div>
-            <img src={gif} alt="gif" />
-        </div>
+        <nav className="nav">
+            <div className="nav-btn-container">
+                <button>One</button>
+                <button>Two</button>
+                <button>Three</button>
+            </div>
+        </nav>
     )
 }
 

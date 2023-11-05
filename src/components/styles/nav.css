@@ -1,0 +1,21 @@
+.nav {
+    display: inline-block;
+    position: relative;
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+    /*background-color: rgb(110, 215, 129);*/
+    background-color: rgba(0, 0, 0, 0.63);
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    top: 0;
+}
+
+.nav-btn-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: end;
+    align-items: center;
+    padding: 1em;
+}
